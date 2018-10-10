@@ -1,0 +1,14 @@
+header>hgroup{
+  text-align: center;
+  color: white
+}
+header>hgroup>h1{
+  margin: 10px 0 10px 0;
+}
+header>hgroup>h4{
+  font-weight: normal;
+  margin-top: 0px;
+}
+#header{
+  background-color: #333399
+}
