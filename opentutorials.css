@@ -1,3 +1,7 @@
+ol, ul{
+  list-style: none;
+}
+
 header>hgroup{
   text-align: center;
   color: white
@@ -11,4 +15,26 @@ header>hgroup>h4{
 }
 #header{
   background-color: #333399
+}
+
+#header>header{
+  z-index: 14;
+
+}
+#header>header>#left_nav{
+  color: #999;
+  z-index: 1000;
+  display: inline;
+  text-decoration: none;
+}
+#header>header>a{
+  text-decoration: inherit;
+}
+
+#header>header>#right_nav{
+  z-index: 1000;
+}
+
+#main_menu{
+  z-index: 11;
 }
