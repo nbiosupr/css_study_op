@@ -41,7 +41,8 @@ header>hgroup>h1{
 header>hgroup>h4{
   font-weight: normal;
   margin-top: 0px;
-  font-size: 15px
+  font-size: 15px;
+  color: #a3bfdb;
 }
 #header{
   background-color: #333399;
@@ -107,4 +108,33 @@ li:first-child>div.label{
 a.course_link{
   color: #ddd;
   padding: 10px 15px;
+}
+
+/* for body */
+#body>#present_nav{
+  height: 40px;
+  background-color: #eee;
+  border-bottom: 1px solid #ddd;
+}
+#body>#real_body>#navigator{
+  padding-top: 15px;
+  width: 250px;
+  float: left;
+  border-right: 1px solid #ddd;
+}
+
+#body>#real_body .topic_name{
+  padding-left: 30px;
+  padding-bottom: 5px;
+  font-weight: bold;
+
+}
+
+.subject_item{
+  padding: 5px 0px 5px 30px;
+  color: grey;
+}
+.subject_item:hover{
+  background-color: #eee;
+  color: green;
 }
