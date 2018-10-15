@@ -6,7 +6,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     vertical-align: baseline;
 }
-
 ol, ul{
   list-style: none;
 }
@@ -116,6 +115,18 @@ a.course_link{
   background-color: #eee;
   border-bottom: 1px solid #ddd;
 }
+
+#body>#real_body{
+  /* TODO: have to fix it to come in the central*/
+
+  margin: 0 auto;
+  width: 980px;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  position: relative;
+  display: inline-block;
+}
+
 #body>#real_body>#navigator{
   padding-top: 15px;
   width: 250px;
@@ -128,6 +139,12 @@ a.course_link{
   padding-bottom: 5px;
   font-weight: bold;
 
+}
+
+#body>#real_body>#article{
+  float: left;
+  width: 730px;
+  height: 1000px; /*for test*/
 }
 
 .subject_item{
