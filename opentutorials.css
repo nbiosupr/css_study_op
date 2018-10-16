@@ -124,7 +124,7 @@ a.course_link{
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   position: relative;
-  display: inline-block;
+  display: flex;
 }
 
 #body>#real_body>#navigator{
@@ -144,7 +144,34 @@ a.course_link{
 #body>#real_body>#article{
   float: left;
   width: 730px;
-  height: 1000px; /*for test*/
+  min-height: 400px; /*for test*/
+
+}
+#body>#real_body>#article>article{
+  padding: 40px 35px 40px 35px;
+}
+#body>#real_body>#article>article>hgroup{
+  text-align: center;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #333;
+  margin-bottom: 2em;
+}
+#body>#real_body>#article>article>hgroup>h1{
+  font-size: 35px;
+  font-weight: normal;
+}
+#body>#real_body>#article>article>h2{
+  font-size: 15px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom: 1px solid #666;
+  margin-bottom: 10px;
+}
+#body>#real_body>#article>article>p{
+  margin-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .subject_item{
