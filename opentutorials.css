@@ -82,9 +82,15 @@ header>hgroup>h4{
 #header>header>#right_nav .title{
   padding: 0 10px;
 }
+#header>header>#right_nav a:hover{
+  color: white;
+}
 
 #main_menu{
   z-index: 11;
+}
+#main_menu a:hover{
+  color: white;
 }
 
 #button_home{
